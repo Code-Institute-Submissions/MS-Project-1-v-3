@@ -17,6 +17,8 @@ body{
     font-family: Roboto;
 }
 
+
+
 /* -------------------------------- Header */
 .heading{
     height: 20vh;
@@ -50,3 +52,30 @@ body{
     width: 45%;
     padding-right: 5%;
 }
+
+
+/* ------------------------------ Nav menu */
+#menu{
+    font-size: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    border-top:  1px solid #e1470c;
+    border-bottom: 1px solid  #e1470c;
+}
+
+nav li{
+    display: inline;
+    line-height: 2.5em;
+    letter-spacing: 0.1em;
+    padding-right: 5em;
+}
+
+#menu a {
+    color:#016a66;
+    text-decoration: none;
+    }
+
+#menu a:hover {
+    color: #e1470c;
+    font-weight: bold;
+      }

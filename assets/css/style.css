@@ -18,7 +18,6 @@ body{
 }
 
 
-
 /* -------------------------------- Header */
 .heading{
     height: 20vh;
@@ -29,7 +28,7 @@ body{
 #logo-text{
     color:#eb5401;
     font-family: Merienda;
-    font-size: 150%;
+    font-size: 140%;
     height: 45%;
     text-transform: capitalize;
     text-align: center;
@@ -80,9 +79,51 @@ nav li{
     font-weight: bold;
       }
 
+
+/* ----------------------Timetable section */
+#timetable{
+    background-color: #018c96;
+}
+.table-container{
+    width: 50%;
+    height: 400px;
+    margin:auto;
+    background-color:#efb52b;
+    border-radius: 2%;
+  }
+
+table{
+    border-collapse: collapse; /*used the following site to lean about border-collapse property: https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l*/
+    margin: 0 auto;
+    table-layout: fixed; /*used the following site to lean about table-layoutcss property: https://developer.mozilla.org/en-US/docs/Web/CSS/table-layout*/
+    width: 90%;
+  }
+
+  th, td{
+    color:#016a66;
+    font-size: 100%;
+    text-align: center;
+    border: 1px solid #f6ebf9;
+    padding: 10px;
+    text-transform: uppercase;
+  }
+  
+  th{
+    text-transform: uppercase;
+  }
+  
+  #timetable-caption{
+    font-size: 200%;
+    text-align: center;
+    color: #eb5401;
+    padding: 1em;
+  }
+
+  
+
 /* ----------------------Enquiries section */
 .form-container{
-    background-color: #efb52b;;
+    background-color: #efb52b;
     margin:auto;
     height: 500px;
     width:30%;
@@ -97,7 +138,7 @@ legend {
   }
 
 input[type=text], input[type=email], textarea{
-    width: 80%;
+    width: 90%;
     display: block;
     padding: 10px;
     margin: 20px;
@@ -107,8 +148,8 @@ input[type=text], input[type=email], textarea{
     padding: 10px;
     margin: 20px;
     width: 25%;
-    background-color:#016a66;
-    color: #eb5401;
+    background-color:#018c96;
+    color: #f6ebf9;
     border: none;
     border-radius: 4px;
   }
@@ -120,4 +161,3 @@ input[type=text], input[type=email], textarea{
   #enquiries{
     padding: 3em;
   }
-  

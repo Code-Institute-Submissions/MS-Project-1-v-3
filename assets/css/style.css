@@ -43,13 +43,17 @@ body{
     text-transform: none;   
 }
 
-#contacts{
+#contacts{ /*check this contact class and id?*/
     color:#eb5401;
     float: right;
     height: 50%;
     text-align: right;
     width: 45%;
     padding-right: 5%;
+}
+
+.text-center{
+  text-align: center;/*review this - text alight should be given */
 }
 
 
@@ -122,32 +126,74 @@ table{
   
 
 /* ----------------------Enquiries section */
-.form-container{
-    background-color: #efb52b;
-    margin:auto;
-    height: 500px;
-    width:30%;
-    border-radius: 2%;
-}
 
-legend {
-    font-size: 200%;
-    text-align: center;
-    color:#eb5401;
-    padding: 1em;
+#enquiries{
+  height: 400px;
+  width: 80%;
+  margin: auto;
+  /*background-color: brown;*/
+  padding: 3em;
   }
 
+#contact-info-wrapper{
+  height: 100%;
+  width: 100%;
+  /*background-color: darkslategray;*/
+}
+
+.contact{
+  height: 400px;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  float: left;
+  color: #016a66;
+  
+}
+
+h2{
+  font-weight: bold;
+  font-size: 200%;
+  line-height: 1.5em;
+}
+
+
+/*#contact-info{
+background-color:orangered; 
+}*/
+
+#contact-info p{
+  color: #016a66;
+  padding: 1em;
+}
+
+
+#form-container{
+    background-color: #efb52b;
+    border-radius: 2%
+    
+    /*margin:auto;
+    height: 500px;
+    width:30%;
+    ;*/
+}
+
 input[type=text], input[type=email], textarea{
-    width: 90%;
+    width: 70%;
     display: block;
     padding: 10px;
-    margin: 20px;
+    margin: 5% auto;
+  }
+
+  textarea{
+    resize: none; /*leaned how disable the resizable property of a textarea from https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l*/
+    font-family: Roboto;
   }
 
   input[type=submit] {
     padding: 10px;
-    margin: 20px;
     width: 25%;
+    margin-left: 35%;
     background-color:#018c96;
     color: #f6ebf9;
     border: none;
@@ -158,9 +204,7 @@ input[type=text], input[type=email], textarea{
     color: #eb5401;
   }
   
-  #enquiries{
-    padding: 3em;
-  }
+
 
 
 /* -------------------------------- Footer */

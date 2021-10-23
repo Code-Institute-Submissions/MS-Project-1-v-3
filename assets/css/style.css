@@ -161,3 +161,29 @@ input[type=text], input[type=email], textarea{
   #enquiries{
     padding: 3em;
   }
+
+
+/* -------------------------------- Footer */
+footer{
+  background-color:#efb52b;
+  height: 10vh;
+}
+
+footer p{
+  color: #018c96;
+  text-align: center;
+}
+
+.social-links{
+  text-align: center;
+}
+
+.social-links li{
+  display: inline;
+}
+
+.social-links i{
+  color: #018c96;
+  font-size: 200%;
+  padding: 1%;
+}

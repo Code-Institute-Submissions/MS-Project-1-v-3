@@ -77,12 +77,12 @@ h2{
 /* ------------------------------ Nav menu */
 #menu{
     font-size: 100%;
-    text-transform: uppercase;
-    text-align: center;
     border-top:  1px solid #eb5401;
     border-bottom: 1px solid  #eb5401;
-    width: 60%;
     margin: auto;
+    text-transform: uppercase;
+    text-align: center;
+    width: 60%;    
 }
 
 nav li{
@@ -94,13 +94,13 @@ nav li{
 
 #menu a {
     color:#016a66;
+    font-weight: bold;
     text-decoration: none;
     }
 
 #menu a:hover {
-    color: #eb5401;
-    font-weight: bold;
-      }
+  color: #eb5401;
+}
 
 
 /* ----------------------- Gallery section */

@@ -81,6 +81,8 @@ h2{
     text-align: center;
     border-top:  1px solid #eb5401;
     border-bottom: 1px solid  #eb5401;
+    width: 60%;
+    margin: auto;
 }
 
 nav li{

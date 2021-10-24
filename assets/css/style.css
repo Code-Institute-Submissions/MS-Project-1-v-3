@@ -13,6 +13,7 @@
 
 body{
     background-color:#f4f4f4;
+    color:#2e4443;
     font-family: Roboto;
 }
 
@@ -34,6 +35,11 @@ h2{
   font-weight: bold;
   font-size: 200%;
   line-height: 1.5em;
+}
+
+h3{
+  color: #016a66;
+  line-height: 1em;
 }
 
 
@@ -103,10 +109,42 @@ nav li{
 }
 
 
+/* -------------------------- Home section */
+#home{
+  height: 500px;
+  margin: auto;
+  width: 80%;
+  padding: 2%;
+}
+
+#welcome{
+  height: 20%;
+  color: #2e4443;
+  padding: 1em;
+
+}
+#reasons{
+  margin-left: 20%;
+  height: 70%;
+  width: 60%;
+}
+
+#reasons h3{
+  color: #eb5401;
+  padding: 1em;
+}
+
+p{
+  padding: 1em;
+}
+
+.link{
+  color: #eb5401;
+  text-decoration: none;
+}
+
+
 /* ----------------------- Gallery section */
-/*#gallery-wrapper{
-  background-color: red;
-}*/
 
 /*css code was adopted from this tutorial https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/*/
 .container{
@@ -233,7 +271,7 @@ table{
   width: 40%;
   margin-left: 5%;
   margin-right: 5%;
-  color: #2e4443;
+  /*color: #2e4443;*/
   float: left;
 }
 
@@ -282,8 +320,8 @@ footer{
 }
 
 footer p{
-  color:#2e4443;
-  font-weight:bold;
+  /*color:#2e4443;*/
+  font-weight: bold;
 }
 
 /*-- social links styling*/
@@ -296,7 +334,7 @@ footer p{
 }
 
 .social-links i{
-  color: #018c96;
+  color: #016a66;
   font-size: 200%;
   padding: 2%;
 }

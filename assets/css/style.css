@@ -17,6 +17,11 @@ body{
     font-family: Roboto;
 }
 
+h2{
+  font-weight: bold;
+  font-size: 200%;
+  line-height: 1.5em;
+}
 
 /*h2{
 font-family: Merienda;
@@ -128,7 +133,7 @@ color:#eb5401;
     text-transform: none;   
 }
 
-#contacts{ /*check this contact class and id?*/
+#contacts{ /*check this contact class and id? call contots header block*/
     color:#eb5401;
     float: right;
     height: 50%;
@@ -227,65 +232,45 @@ table{
   width: 40%;
   margin-left: 5%;
   margin-right: 5%;
+  color: #2e4443;
   float: left;
-  color: #016a66;
-  
 }
 
-h2{
-  font-weight: bold;
-  font-size: 200%;
-  line-height: 1.5em;
-}
-
-
-/*#contact-info{
-background-color:orangered; 
-}*/
-
-#contact-info p{
-  color: #016a66;
+.contact p{
   padding: 1em;
 }
 
-
 #form-container{
-    background-color: #efb52b;
-    border-radius: 2%
-    
-    /*margin:auto;
-    height: 500px;
-    width:30%;
-    ;*/
+  background-color: #efb52b;
+  border-radius: 2%
 }
 
 input[type=text], input[type=email], textarea{
-    width: 70%;
-    display: block;
-    padding: 10px;
-    margin: 5% auto;
+  display: block;
+  margin: 5% auto;
+  padding: 10px;
+  width: 70%; 
   }
 
-  textarea{
-    resize: none; /*leaned how disable the resizable property of a textarea from https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l*/
-    font-family: Roboto;
+textarea{
+  resize: none; /*learned how disable the resizable property of a textarea from this tutorial https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l*/
+  font-family: Roboto;
   }
 
-  input[type=submit] {
-    padding: 10px;
-    width: 25%;
-    margin-left: 35%;
-    background-color:#018c96;
-    color: #f6ebf9;
-    border: none;
-    border-radius: 4px;
-  }
+input[type=submit] {
+  background-color:#018c96;
+  border: none;
+  border-radius: 4px;
+  color: #f6ebf9;
+  margin-left: 35%;
+  padding: 10px;
+  width: 25%;
+}
 
-  ::placeholder { /* used the following site to lean about how to change the color: https://www.w3schools.com/howto/howto_css_placeholder.asp*/   
-    color: #eb5401;
+::placeholder { /* used the following site to lean about how to change the color: https://www.w3schools.com/howto/howto_css_placeholder.asp*/   
+  color: #016a66;
   }
   
-
 
 
 /* -------------------------------- Footer */

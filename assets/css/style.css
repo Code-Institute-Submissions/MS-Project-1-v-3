@@ -46,7 +46,7 @@ h3{
 /* -------------------------------- Header */
 
 .heading{
-  height: 20vh;
+  height: 150px;
   width: 100%;
   background-image: linear-gradient( #016a66, #f4f4f4);
 }

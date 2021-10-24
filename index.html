@@ -149,36 +149,35 @@
     </section>
     <!-- End of the timetable section -->
 
+    <div class="color-gradient"></div> <!--to visually separate sections-->
+
     <!-- This is the enquiries block -->
     <section id="enquiries">
-        <div id="contact-info-wrapper">
-        <div class="contact" id="contact-info">
-            <h2 class="text-center">Contact Us</h2>
-            <p>Looking to enroll your child?</p>
-            <p>Call us to find out more about our services or submit your query by filling out the contact form.</p>
-            <p><strong>Active Kids after-school club</strong><br>1 Happy Street<br>Dublin</p>
-            <p> <strong>Phone: </strong>+353 (01) 123 456<br><strong>E-mail Address: </strong>info@activekidsclub.ie</p>
-            <p><strong>Monday to Friday: </strong>7.30am - 6.30pm</p>
-        </div>
+        <h2 class="text-center">Contact Us</h2>
+        <div id="contact-info-wrapper">     
+            <div class="contact" id="contact-info">
+                <p>Looking to enroll your child?</p>
+                <p>Call us to find out more about our services or submit your query by filling out the contact form.</p>
+                <p><strong>Active Kids after-school club</strong><br>1 Happy Street<br>Dublin</p>
+                <p> <strong>Phone: </strong>+353 (01) 123 456<br><strong>E-mail Address: </strong>info@activekidsclub.ie</p>
+                <p><strong>Monday to Friday: </strong>7.30am - 6.30pm</p>
+            </div>
 
-        <div class="contact" id="form-container">
-            <form action="https://www./#dummy.com" method="POST">
-                <!--"https://www./#dummy.com is a dummy site-->
-                <fieldset>
+            <div class="contact" id="form-container">
+                <form action="https://www./#dummy.com" method="POST">
+                    <!--"https://www./#dummy.com is a dummy site-->
+                    <fieldset>
+                        <input type="text" name="name" placeholder="Your Name" Required>
+                        <input type="email" name="email" placeholder="Your Email" Required>
+                        <input type="text" name="phone" placeholder="Your Phone">
 
-                    <!--<legend>Contact Us</legend>-->
+                        <textarea name="Message" placeholder="Your Message" rows="5" cols="40"></textarea>
 
-                    <input type="text" name="name" placeholder="Your Name" Required>
-                    <input type="email" name="email" placeholder="Your Email" Required>
-                    <input type="text" name="phone" placeholder="Your Phone">
+                        <input type="submit" value="Send Message">
 
-                    <textarea name="Message" placeholder="Your Message" rows="5" cols="40"></textarea>
-
-                    <input type="submit" value="Send Message">
-
-                </fieldset>
-            </form>
-        </div>
+                    </fieldset>
+                </form>
+            </div>
         </div>
     </section>
     <!-- End of the enquiries section -->

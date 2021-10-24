@@ -17,7 +17,13 @@ body{
     font-family: Roboto;
 }
 
-
+/*learned about CSS Gradients from this tutorial https://www.w3schools.com/css/css3_gradients.asp*/
+/*used to visually separate sections*/
+.color-gradient{
+  height: 20vh;
+  background-image: linear-gradient(#f4f4f4,#7fc0be, #f4f4f4);
+  background-repeat: no-repeat;
+}
 
 h2{
   font-weight: bold;
@@ -34,11 +40,7 @@ color:#eb5401;
   text-align: center;/*review this - text alight should be given 
 }*/
 
-/*.color-gradient{
-  height: 20vh;
-  background-image: linear-gradient(#f4f4f4,#7fc0be, #f4f4f4);
-  background-repeat: no-repeat;
-}*/
+
 
 
 /* -------------------------------- Header */
@@ -151,7 +153,6 @@ nav li{
   grid-row-start: 1;
   grid-row-end: 6;
 }
-
 
 .gallery__item--4 {
   grid-column-start: 1;

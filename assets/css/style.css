@@ -17,6 +17,8 @@ body{
     font-family: Roboto;
 }
 
+
+
 h2{
   font-weight: bold;
   font-size: 200%;
@@ -29,8 +31,8 @@ color:#eb5401;
 }
 
 .text-center{
-  text-align: center;/*review this - text alight should be given */
-}
+  text-align: center;/*review this - text alight should be given 
+}*/
 
 /*.color-gradient{
   height: 20vh;
@@ -39,11 +41,78 @@ color:#eb5401;
 }*/
 
 
-/*grid style---*/
+/* -------------------------------- Header */
+
+/*.heading{
+  height: 20vh;
+  width: 100%;
+  /*background-image: linear-gradient( #016a66, #f4f4f4);
+}**/
+
+
+/*--------- logo styling*/
+#logo-text{
+    color:#eb5401;
+    font-family: Merienda;
+    font-size: 140%;
+    height: 45%;
+    text-transform: capitalize;
+    text-align: center;
+    width: 45%;
+    padding-left: 5%;
+    margin-top: 1%;
+}
+
+#logo-text-lower {
+    color:#2e4443;
+    font-size: 70%;
+    text-transform: none;   
+}
+
+#contacts{ /*check this contact class and id? call contots header block*/
+    color:#eb5401;
+    float: right;
+    height: 50%;
+    text-align: right;
+    width: 45%;
+    padding-right: 5%;
+}
+
+
+/* ------------------------------ Nav menu */
+#menu{
+    font-size: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    border-top:  1px solid #eb5401;
+    border-bottom: 1px solid  #eb5401;
+}
+
+nav li{
+    display: inline;
+    line-height: 2.5em;
+    letter-spacing: 0.1em;
+    padding-right: 5em;
+}
+
+#menu a {
+    color:#016a66;
+    text-decoration: none;
+    }
+
+#menu a:hover {
+    color: #eb5401;
+    font-weight: bold;
+      }
+
+
+/* ----------------------- Gallery section */
 /*#gallery-wrapper{
   background-color: red;
 }*/
-/*.container {
+
+/*css code was adopted from this tutorial https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/*/
+.container{
   width: 60%;
   margin: 2rem auto;
 }
@@ -104,70 +173,6 @@ color:#eb5401;
   grid-row-start: 6;
   grid-row-end: 9;
 }*/
-/* -------------------------------- Header */
-
-/*.heading{
-  height: 20vh;
-  width: 100%;
-  /*background-image: linear-gradient( #016a66, #f4f4f4);*/
-}*
-
-*/
-
-/*--------- logo styling*/
-#logo-text{
-    color:#eb5401;
-    font-family: Merienda;
-    font-size: 140%;
-    height: 45%;
-    text-transform: capitalize;
-    text-align: center;
-    width: 45%;
-    padding-left: 5%;
-    margin-top: 1%;
-}
-
-#logo-text-lower {
-    color:#2e4443;
-    font-size: 70%;
-    text-transform: none;   
-}
-
-#contacts{ /*check this contact class and id? call contots header block*/
-    color:#eb5401;
-    float: right;
-    height: 50%;
-    text-align: right;
-    width: 45%;
-    padding-right: 5%;
-}
-
-
-/* ------------------------------ Nav menu */
-#menu{
-    font-size: 100%;
-    text-transform: uppercase;
-    text-align: center;
-    border-top:  1px solid #eb5401;
-    border-bottom: 1px solid  #eb5401;
-}
-
-nav li{
-    display: inline;
-    line-height: 2.5em;
-    letter-spacing: 0.1em;
-    padding-right: 5em;
-}
-
-#menu a {
-    color:#016a66;
-    text-decoration: none;
-    }
-
-#menu a:hover {
-    color: #eb5401;
-    font-weight: bold;
-      }
 
 
 /* ----------------------Timetable section */

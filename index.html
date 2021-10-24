@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    
+    <!--fancybox-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+
     <link rel="stylesheet" href="/assets/css/style.css">
     <title>Document</title>
 </head>
@@ -53,7 +58,38 @@
     </section>
     <!-- End of the reasons section -->
 
-    <section id="gallery"></section>
+    <div class="color-gradient"></div> <!--to visually separate sections-->
+
+    <!-- This is the gallery block -->
+    <!-- Adopted the code for creating image gallery from Fancybox (https://fancyapps.com/docs/ui/quick-start) and this tutorial https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/-->
+    <section id="gallery-wrapper">
+        <h2 class="text-center">Gallery</h2>
+        <div class="container">
+            <div class="gallery">
+                <figure class="gallery__item gallery__item--1">
+                    <a data-fancybox="gallery" href="assets/images/football1.jpg"><img src="/assets/images/football1.jpg" class="gallery__img"></a>
+                </figure>
+                <figure class="gallery__item gallery__item--2">
+                    <a data-fancybox="gallery" href="assets/images/football2.jpg"><img src="/assets/images/football2.jpg" class="gallery__img"></a>
+                </figure>
+                <figure class="gallery__item gallery__item--3">
+                    <a data-fancybox="gallery" href="assets/images/football3.jpg"><img src="/assets/images/football3.jpg" class="gallery__img"></a>
+                </figure>
+                <figure class="gallery__item gallery__item--4">
+                    <a data-fancybox="gallery" href="assets/images/football4.jpg"><img src="/assets/images/football4.jpg" class="gallery__img"></a>
+                </figure>
+                <figure class="gallery__item gallery__item--5">
+                    <a data-fancybox="gallery" href="assets/images/football5.jpg"><img src="/assets/images/football5.jpg" class="gallery__img"></a>
+                </figure>
+                <figure class="gallery__item gallery__item--6">
+                    <a data-fancybox="gallery" href="assets/images/football6.jpg"><img src="/assets/images/football6.jpg" class="gallery__img"></a>
+                </figure>
+            </div>
+        </div>
+    </section>
+    <!-- End of the gallery section -->
+
+    <div class="color-gradient"></div> <!--to visually separate sections-->
 
     <!-- This is the timetable block -->
     <section id="timetable">
@@ -156,5 +192,8 @@
         <p>Copyright 2021 - Active Kids after-school club</p>
     </footer>
     <!-- End of the footer section -->
+
+    <!--fancybox script-->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 </body>
 </html>

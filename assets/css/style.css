@@ -18,11 +18,96 @@ body{
 }
 
 
-/* -------------------------------- Header */
-.heading{
-    height: 20vh;
-    width: 100%;
+/*h2{
+font-family: Merienda;
+color:#eb5401;
 }
+
+.text-center{
+  text-align: center;/*review this - text alight should be given */
+}
+
+/*.color-gradient{
+  height: 20vh;
+  background-image: linear-gradient(#f4f4f4,#7fc0be, #f4f4f4);
+  background-repeat: no-repeat;
+}*/
+
+
+/*grid style---*/
+/*#gallery-wrapper{
+  background-color: red;
+}*/
+/*.container {
+  width: 60%;
+  margin: 2rem auto;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 1.5rem; 
+}
+
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; 
+}
+
+.gallery__item--1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.gallery__item--2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.gallery__item--3 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+
+
+.gallery__item--4 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+
+.gallery__item--5 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 9;
+}
+
+.gallery__item--6 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 6;
+  grid-row-end: 9;
+}*/
+/* -------------------------------- Header */
+
+/*.heading{
+  height: 20vh;
+  width: 100%;
+  /*background-image: linear-gradient( #016a66, #f4f4f4);*/
+}*
+
+*/
 
 /*--------- logo styling*/
 #logo-text{
@@ -50,10 +135,6 @@ body{
     text-align: right;
     width: 45%;
     padding-right: 5%;
-}
-
-.text-center{
-  text-align: center;/*review this - text alight should be given */
 }
 
 
@@ -209,13 +290,15 @@ input[type=text], input[type=email], textarea{
 
 /* -------------------------------- Footer */
 footer{
-  background-color:#efb52b;
-  height: 10vh;
+  height: 150px;
+  width: 100%;
+  background-image: linear-gradient(#f4f4f4,#016a66);
 }
 
 footer p{
-  color: #018c96;
+  color:#2e4443;
   text-align: center;
+  font-weight:bold;
 }
 
 .social-links{
@@ -229,5 +312,5 @@ footer p{
 .social-links i{
   color: #018c96;
   font-size: 200%;
-  padding: 1%;
+  padding: 2%;
 }

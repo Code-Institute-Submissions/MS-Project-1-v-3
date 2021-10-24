@@ -11,7 +11,6 @@
     border:0;
   }
 
-
 body{
     background-color:#f4f4f4;
     font-family: Roboto;
@@ -25,22 +24,18 @@ body{
   background-repeat: no-repeat;
 }
 
+.text-center{
+  text-align: center; 
+}  
+
+
 h2{
+  color:#eb5401;
+  font-family: Merienda;
   font-weight: bold;
   font-size: 200%;
   line-height: 1.5em;
 }
-
-/*h2{
-font-family: Merienda;
-color:#eb5401;
-}
-
-.text-center{
-  text-align: center;/*review this - text alight should be given 
-}*/
-
-
 
 
 /* -------------------------------- Header */
@@ -198,7 +193,7 @@ table{
   th, td{
     color:#016a66;
     font-size: 100%;
-    text-align: center;
+    text-align: center; /*---------------------------------------------------------------------------------*/
     border: 1px solid #f6ebf9;
     padding: 10px;
     text-transform: uppercase;
@@ -210,7 +205,7 @@ table{
   
   #timetable-caption{
     font-size: 200%;
-    text-align: center;
+    text-align: center;   /*-----------------------------------------------------------------------------------*/
     color: #eb5401;
     padding: 1em;
   }
@@ -288,7 +283,6 @@ footer{
 
 footer p{
   color:#2e4443;
-  text-align: center;
   font-weight:bold;
 }
 

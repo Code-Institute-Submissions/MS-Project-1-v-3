@@ -53,56 +53,58 @@ h3{
 
 /*--------- logo styling*/
 #logo-text{
-    color:#eb5401;
-    font-family: Merienda;
-    font-size: 140%;
-    height: 45%;
-    text-transform: capitalize;
-    text-align: center;
-    width: 45%;
-    padding-left: 5%;
-    margin-top: 1%;
+  color:#eb5401;
+  font-family: Merienda;
+  font-size: 140%;
+  height: 44%;
+  text-transform: capitalize;
+  text-align: center;
+  width: 45%;
+  padding-left: 5%;
+  padding-top: 1%;
 }
 
 #logo-text-lower {
-    color:#2e4443;
-    font-size: 70%;
-    text-transform: none;   
+  color:#2e4443;
+  font-size: 70%;
+  text-transform: none;   
 }
 
-#contacts{ /*check this contact class and id? call contots header block*/
-    color:#eb5401;
-    float: right;
-    height: 50%;
-    text-align: right;
-    width: 45%;
-    padding-right: 5%;
+#contact-info-header{
+  color:#eb5401;
+  float: right;
+  height: 44%;
+  text-align: right;
+  width: 45%;
+  padding-right: 10%;
+  padding-bottom: 1%;
 }
 
 
 /* ------------------------------ Nav menu */
 #menu{
-    font-size: 100%;
-    border-top:  1px solid #eb5401;
-    border-bottom: 1px solid  #eb5401;
-    margin: auto;
-    text-transform: uppercase;
-    text-align: center;
-    width: 60%;    
+  font-size: 100%;
+  border-top:  1px solid #eb5401;
+  border-bottom: 1px solid  #eb5401;
+  margin: auto;
+  text-transform: uppercase;
+  text-align: center;
+  width: 60%;
+  margin-top: 2%;    
 }
 
 nav li{
-    display: inline;
-    line-height: 2.5em;
-    letter-spacing: 0.1em;
-    padding-right: 5em;
+  display: inline;
+  line-height: 2.5em;
+  letter-spacing: 0.1em;
+  padding-right: 5em;
 }
 
 #menu a {
-    color:#016a66;
-    font-weight: bold;
-    text-decoration: none;
-    }
+  color:#016a66;
+  font-weight: bold;
+  text-decoration: none;
+}
 
 #menu a:hover {
   color: #eb5401;
@@ -121,8 +123,8 @@ nav li{
   height: 20%;
   color: #2e4443;
   padding: 1em;
-
 }
+
 #reasons{
   margin-left: 20%;
   height: 70%;
@@ -132,6 +134,7 @@ nav li{
 #reasons h3{
   color: #eb5401;
   padding: 1em;
+  text-transform: uppercase;
 }
 
 p{
@@ -206,64 +209,57 @@ p{
   grid-column-end: 9;
   grid-row-start: 6;
   grid-row-end: 9;
-}*/
+}
 
 
 /* ----------------------Timetable section */
+
 #timetable{
-    background-color: #018c96;
+  height: 500px;
 }
+
+.text-highlighter{
+  color: #eb5401;
+}
+
 .table-container{
-    width: 50%;
-    height: 400px;
-    margin:auto;
-    background-color:#efb52b;
-    border-radius: 2%;
-  }
+  background-color:#efb52b;
+  border-radius: 2%;
+  height: 240px;
+  width: 50%;
+  margin:auto;
+  padding: 1%;
+}
 
 table{
-    border-collapse: collapse; /*used the following site to lean about border-collapse property: https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l*/
-    margin: 0 auto;
-    table-layout: fixed; /*used the following site to lean about table-layoutcss property: https://developer.mozilla.org/en-US/docs/Web/CSS/table-layout*/
-    width: 90%;
-  }
+  border-collapse: collapse; /*used the following site to lean about border-collapse property: https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l*/
+  margin: 0 auto;
+  table-layout: fixed; /*used the following site to lean about table-layoutcss property: https://developer.mozilla.org/en-US/docs/Web/CSS/table-layout*/
+  width: 90%;
+}
 
-  th, td{
-    color:#016a66;
-    font-size: 100%;
-    text-align: center; /*---------------------------------------------------------------------------------*/
-    border: 1px solid #f6ebf9;
-    padding: 10px;
-    text-transform: uppercase;
-  }
-  
-  th{
-    text-transform: uppercase;
-  }
-  
-  #timetable-caption{
-    font-size: 200%;
-    text-align: center;   /*-----------------------------------------------------------------------------------*/
-    color: #eb5401;
-    padding: 1em;
-  }
-
-  
+th, td{
+  border: 1px solid #f6ebf9;
+  color:#016a66;
+  font-size: 100%;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 /* ----------------------Enquiries section */
 
 #enquiries{
-  height: 400px;
+  height: 500px;
   width: 80%;
   margin: auto;
-  /*background-color: brown;*/
   padding: 3em;
   }
 
 #contact-info-wrapper{
-  height: 100%;
+  height: 90%;
   width: 100%;
-  /*background-color: darkslategray;*/
+  margin-top: 1%;
 }
 
 .contact{
@@ -271,7 +267,6 @@ table{
   width: 40%;
   margin-left: 5%;
   margin-right: 5%;
-  /*color: #2e4443;*/
   float: left;
 }
 
@@ -314,13 +309,13 @@ input[type=submit] {
 
 /* -------------------------------- Footer */
 footer{
+  background-image: linear-gradient(#f4f4f4,#016a66);
   height: 150px;
   width: 100%;
-  background-image: linear-gradient(#f4f4f4,#016a66);
+  
 }
 
 footer p{
-  /*color:#2e4443;*/
   font-weight: bold;
 }
 

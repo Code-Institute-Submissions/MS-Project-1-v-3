@@ -17,8 +17,7 @@ body{
     font-family: Roboto;
 }
 
-/*learned about CSS Gradients from this tutorial https://www.w3schools.com/css/css3_gradients.asp*/
-/*used to visually separate sections*/
+/*learned about CSS Gradients from this tutorial https://www.w3schools.com/css/css3_gradients.asp, used to visually separate sections*/
 .color-gradient{
   height: 20vh;
   background-image: linear-gradient(#f4f4f4,#7fc0be, #f4f4f4);
@@ -76,16 +75,16 @@ h3{
   height: 44%;
   text-align: right;
   width: 45%;
-  padding-right: 10%;
+  padding-right: 5%;
   padding-bottom: 1%;
 }
 
 
 /* ------------------------------ Nav menu */
 #menu{
-  font-size: 100%;
   border-top:  1px solid #eb5401;
   border-bottom: 1px solid  #eb5401;
+  font-size: 100%;
   margin: auto;
   text-transform: uppercase;
   text-align: center;
@@ -112,10 +111,11 @@ nav li{
 
 
 /* -------------------------- Home section */
+
 #home{
   height: 500px;
-  margin: auto;
   width: 80%;
+  margin: auto;
   padding: 2%;
 }
 
@@ -126,9 +126,9 @@ nav li{
 }
 
 #reasons{
-  margin-left: 20%;
   height: 70%;
   width: 60%;
+  margin-left: 20%;
 }
 
 #reasons h3{
@@ -332,4 +332,184 @@ footer p{
   color: #016a66;
   font-size: 200%;
   padding: 2%;
+}
+
+
+/* --------------------------Media Queries */
+
+/*----------- mobile screens */
+
+@media screen and (min-width: 370px) and (max-width: 425px) {
+  
+  body{
+    font-size: 80%;
+  }
+
+  /* ---------------- Header */
+  #logo-text{
+    font-size: 90%;
+    height: 34%;
+    width: 80%;
+    margin:auto;
+    padding-left: 0%;
+    }
+
+  #logo-text-lower{
+    font-size: 80%;
+  }
+
+  #contact-info-header{
+    float: none;
+    width: 80%;
+    margin:auto;
+    padding-right: 0%;
+  }
+
+  /* ------------------- Nav */
+  #menu{
+    font-size: 80%;
+    width: 80%;   
+  }
+
+  nav li{
+    padding-right: 2em;
+  }
+
+/* ------------------- Home */
+
+  #home{
+    width: 100%;
+  } 
+
+  #welcome{
+    height: 25%;
+  }
+
+  #reasons{
+    margin-left: 0%;
+    width: 100%;
+  }
+
+/* ------------- Timetable */
+
+  #timetable{
+    height: 300px;
+  }
+  
+  .table-container{
+    height: 120px;
+    width: 90%;
+    margin:auto;
+    padding: 2%;
+  }
+  
+  th, td{
+    font-size: 60%;
+    padding: 5px;
+  }
+
+  /* ------------- Enquiries */
+  #enquiries{
+    height: 600px;
+    }
+
+  .contact{
+    height: 300px;
+    width: 100%;
+    float: none;
+  }
+
+  #form-container{
+    height: 250px;
+  }
+
+  input[type=text], input[type=email], textarea{
+    padding: 5px;
+    font-size: 80%;
+    width: 80%;
+    }
+
+  input[type=submit] {
+    font-size: 80%;
+    padding: 5px;
+    }
+
+    /* ---------------------- Footer */
+    footer{
+      height: 100px;
+    }
+}
+
+
+/*----------- tablets screens */
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+  /* ------------------Header */
+  #logo-text{
+    font-size: 100%;;
+    }
+  
+    #logo-text-lower{
+      font-size: 55%;
+    }
+  /* ------------------- Nav */
+  
+  #menu{
+    font-size: 80%;
+    width: 80%;   
+  }  
+  
+  nav li{
+    padding-right: 2em;
+  }
+  
+  /* ------------------ Home */
+  #home{
+    width: 90%;
+  }
+  
+  #reasons{
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  /* ------------- Timetable */
+
+  #timetable{
+    height: 400px;
+  }
+
+  .table-container{
+    height: 200px;
+    width: 90%;
+  }
+
+  th, td{
+    padding: 6.5px;
+  }
+
+/* ------------- Enquiries */
+  #enquiries{
+    height: 750px; /*enough?*/
+  }
+
+  .contact{
+    height: 350px;
+    width: 100%;
+    float: none;
+  }
+  
+  #form-container{
+    height: 400px;
+  }
+  
+  input[type=text], input[type=email], textarea{
+    font-size: 90%;
+    padding: 5px;
+  }
+  
+  input[type=submit] {
+    font-size: 90%;
+  }
 }

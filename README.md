@@ -39,7 +39,7 @@ The target audience are working parents who are looking for flexible after-schoo
 Merienda font is ideal for headlines.
 
 * Imagery
-    * Images were selected to support the project goal. The aim is to show children having fun and enjoying various activities (I feel that the home page is lacking an image. The website would have made stronger impact if Users were presented with an image supporting the project idea.
+    * Images were selected to support the project goal. The aim is to show children having fun and enjoying various activities (I feel that the home page is lacking an image. The website would have made a stronger impact if Users were presented with an image supporting the project idea).
 
 ### Wireframes
 
@@ -65,7 +65,7 @@ Merienda font is ideal for headlines.
 
 * [Font Awesome](https://fontawesome.com/) was used to obtain the social media icons used in the footer.
 
-* [Fancybox](https://fancyapps.com/docs/ui/fancybox/) was used to format the photo gallery.
+* [Fancybox](https://fancyapps.com/docs/ui/fancybox/) was used to create the photo gallery.
 
 * [Google Developer Tools](https://developer.chrome.com/docs/devtools/) was used for testing responsiveness of the website.
 
@@ -92,7 +92,7 @@ Merienda font is ideal for headlines.
 
     *   User stories
         * **As a First Time Visitor, I want to understand the main purpose of the site and learn more about the organisation.**
-        As soon as the page is opened User is presented with a welcome message that states the purpose of the organisation and describes main services.
+        As soon as the page is opened User is presented with a welcome message that states the purpose of the organisation and describes its main services.
         ![](assets/docs/images/welcome.png)
         *  **As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.**
         The website has a navbar that is centered just under the header. When any of the nav links is clicked the User can easily get access to relevant section of the page.

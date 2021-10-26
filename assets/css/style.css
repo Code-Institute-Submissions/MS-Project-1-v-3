@@ -288,7 +288,7 @@ input[type=text], input[type=email], textarea{
   }
 
 textarea{
-  resize: none; /*learned how disable the resizable property of a textarea from this tutorial https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l*/
+  resize: none; /*learned how disable the resizable property of a textarea from this post https://stackoverflow.com/questions/5235142/how-do-i-disable-the-resizable-property-of-a-textarea*/
   font-family: Roboto;
   }
 
